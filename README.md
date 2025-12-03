@@ -55,4 +55,11 @@ This software is licensed under the MIT License.
 **Commercial use is strictly prohibited without prior written permission.**
 Attribution is required for any substantial use.
 
-Copyright (C) Codebasics Inc. All rights reserved.
+### 🙋‍♂️ Author
+Developed by **Arun Hegde**
+
+📎 Git Hub - [GitHub Profile](https://github.com/Arun-Hegde)
+
+🌐 Live Demo – [Credit Risk App](https://credit-risk-modelling-arun-hegde.streamlit.app/)
+
+Feel free to ⭐ the repo or connect on GitHub!
