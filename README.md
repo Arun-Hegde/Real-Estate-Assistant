@@ -60,6 +60,4 @@ Developed by **Arun Hegde**
 
 📎 Git Hub - [GitHub Profile](https://github.com/Arun-Hegde)
 
-🌐 Live Demo – [Real_Estate_Assistant_App](https://real-estate-assistant-arun-hegde.streamlit.app/)
-
 Feel free to ⭐ the repo or connect on GitHub!
