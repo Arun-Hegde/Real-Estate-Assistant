@@ -6,6 +6,22 @@ This tool allows users to input news article URLs, process them to extract insig
 
 ![product screenshot](/image.png)
 
+## 🏗️ Architecture
+
+![Architecture Diagram](./architecture.png)
+
+The system implements a Retrieval-Augmented Generation (RAG) pipeline:
+
+1. **URL Input (Streamlit)**: User provides news article URLs
+2. **Web Scraping (LangChain WebLoader)**: Fetches content with custom headers
+3. **Text Chunking**: Splits documents using RecursiveCharacterTextSplitter
+4. **Embeddings (HuggingFace)**: Converts text chunks to vector embeddings
+5. **Vector Store (ChromaDB)**: Stores embeddings for efficient retrieval
+6. **User Query**: User asks questions about the articles
+7. **Retrieval**: Finds most relevant chunks from vector store
+8. **LLM (Groq Llama 3.3 70B)**: Generates precise answers
+9. **Response with Sources**: Returns answer with article citations
+
 ## ✨ Features
 
 -   **🔗 URL Loading**: Fetch content directly from news article URLs with custom headers for reliable access.
@@ -49,15 +65,19 @@ This tool allows users to input news article URLs, process them to extract insig
 
 ---
 
+## 🤝 Connect
+
+- **GitHub**: [arunhegde_18](https://github.com/arunhegde_18)
+- **Email**: arunhegde697@gmail.com
+
+⭐ If you find this project useful, please consider giving it a star on GitHub!
+
+---
+
 ## 📄 License
 
 This software is licensed under the MIT License.
 **Commercial use is strictly prohibited without prior written permission.**
 Attribution is required for any substantial use.
 
-### 🙋‍♂️ Author
-Developed by **Arun Hegde**
-
-📎 Git Hub - [GitHub Profile](https://github.com/Arun-Hegde)
-
-Feel free to ⭐ the repo or connect on GitHub!
+Copyright (C) Codebasics Inc. All rights reserved.
